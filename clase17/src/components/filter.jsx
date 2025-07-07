@@ -10,7 +10,7 @@ export const Filter = ({ mostrarActivas, setMostrarActivas }) => {
           checked={mostrarActivas}
           onChange={handleChecked}
         />
-        Mostrar las tareas pendientes
+        Mostrar solo las tareas pendientes
       </label>
     </div>
   );
