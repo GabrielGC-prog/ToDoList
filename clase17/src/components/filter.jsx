@@ -1,4 +1,4 @@
-export const Filter = (mostrarActivas, setMostrarActivas) => {
+export const Filter = ({ mostrarActivas, setMostrarActivas }) => {
   const handleChecked = () => {
     setMostrarActivas(!mostrarActivas);
   };

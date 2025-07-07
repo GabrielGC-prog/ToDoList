@@ -36,7 +36,7 @@ function App() {
   };
 
   const filterTasks = mostrarActivas
-    ? tasks.filter((task) => !task.completed)
+    ? tasks.filter((unatask) => !unatask.completed)
     : tasks;
 
   return (
